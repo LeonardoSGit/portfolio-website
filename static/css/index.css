@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main {
+    padding: 2rem;
+}
+
+.photo-card {
+    border: 1px solid #ccc;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;    
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in element's width */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.photo-gallery .card-img-top {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.photo-gallery  .card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    display: none;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 10px; /* Adjust gap between grid items */
+    padding: 20px; /* Optional padding for the grid */
+}
